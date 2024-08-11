@@ -1,0 +1,8 @@
+rec=('irshad','muhammed',(12,11,2003))  
+lastname,firstname,dob=rec
+birthyear=dob[2]
+print(firstname)
+print(birthyear)
+name=rec[1]+' '+rec[0]
+print(name)
+print(rec[0:2])
